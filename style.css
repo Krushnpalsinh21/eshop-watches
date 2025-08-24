@@ -1,0 +1,268 @@
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#back{
+background-image: url("https://cdn.shopify.com/s/files/1/1957/0631/products/watch-men-s-elegant-watch-black-leather-strap-white-watch-face-grey-sky-2_2000x.jpg?v=1586689953");
+    background-position: center;
+      background-origin: content-box;
+      background-repeat: no-repeat;
+      background-size: cover;
+    min-height:100vh;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+
+
+
+/*----------------------------------------------*/
+#boody{
+background-image: url("https://cdn.shopify.com/s/files/1/1957/0631/products/watch-men-s-elegant-watch-black-leather-strap-white-watch-face-grey-sky-2_2000x.jpg?v=1586689953");
+    background-position: center;
+      background-origin: content-box;
+      background-repeat: no-repeat;
+      background-size: cover;
+    min-height:100vh;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.col{
+  color: black;
+}
+
+#nav{
+  background-color: rgb(0,14,34) !important;
+}
+
+#mes{
+  margin-left: 31%;
+}
+.li{
+  padding-left: 20px;
+}
+
+#row {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.showcase-h4 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: rgb(0,14,34);
+}
+
+.row {
+  margin-bottom: 50px;
+}
+
+#money {
+  color: #05ad1c;
+  font-weight: bold;
+}
+
+#stock {
+  color: #eb3d1a;
+  font-weight: bold;
+}
+
+#drop{
+  background-color: #000e22e6 !important;
+}
+
+#bud{
+background-image: url("https://m.media-amazon.com/images/S/aplus-seller-content-images-us-east-1/ATVPDKIKX0DER/A2SY3JTI2IDBVF/24935c46-1c61-4847-874d-a42cb7fa7aa0._CR0,0,1940,1200_PT0_SX970__.jpg");
+    background-position: center;
+      background-origin: content-box;
+      background-repeat: no-repeat;
+      background-size: cover;
+    min-height:100vh;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.button {
+  margin: 10px 20px;
+  padding: 10px 20px;
+  min-width: 110px;
+  max-width: 110px;
+  border: none;
+  background-color: rgba(0,14,34,1);
+  color: #FFFFFF;
+}
+.button{
+  color: white;
+}
+
+.button a {
+  text-decoration: none;
+  color:white;
+}
+
+.button a:hover {
+  text-decoration: none;
+  color:white;
+}
+
+/*.showcase {
+  
+  min-height: 360px;
+}*/
+
+/*.showcase img {
+  width: 100%;
+}*/
+
+.wrap {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 780px) {
+  #row {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 490px) {
+  #row {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 445px) {
+  #row {
+    width: 350px;
+  }
+}
+
+.showcase-image img {
+  transition: 200ms;
+}
+
+.showcase-image img:hover{
+  box-shadow: 0px 10px 20px #343434;
+}
+
+
+.main {
+    background: url(images/Background1.jpg) no-repeat center; 
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.main{
+  margin-top: 76px;
+}
+.new{
+  background: url(images/Background2.jpg) no-repeat center; 
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.new{
+  margin-top: 100px;
+}
+
+.watch{
+   background: url(images/Background3.jpg) no-repeat center; 
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.watch{
+  margin-top: 100px;
+}
+
+.clas{
+   background: url(images/Background4.jpg) no-repeat center; 
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.clas {
+  margin-top: 100px;
+}
+
+
+.strap{
+   background: url(images/Background5.jpg) no-repeat center; 
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.strap {
+  margin-top: 100px;
+}
+.men{
+   background: url(images/Background7.jpg) no-repeat center; 
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.men {
+  margin-top: 100px;
+}
+
+.women{
+   background: url(images/back.jpeg) no-repeat center; 
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.women {
+  margin-top: 100px;
+}
+
+
+  #buttoni {
+  background-color:#000e22;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#buttoni:hover {
+  opacity: 0.8;
+}
