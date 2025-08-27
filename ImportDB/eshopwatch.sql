@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 19, 2024 at 03:06 PM
+-- Generation Time: Aug 27, 2025 at 01:05 PM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- PHP Version: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,6 +20,28 @@ SET time_zone = "+00:00";
 --
 -- Database: `eshopwatch`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admins`
+--
+
+CREATE TABLE `admins` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `admin` int(1) NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `admins`
+--
+
+INSERT INTO `admins` (`id`, `name`, `username`, `email`, `password`, `admin`) VALUES
+(0, 'administarition', 'admin', 'admin@gmail.com', 'admin123', 1);
 
 -- --------------------------------------------------------
 
@@ -76,6 +98,13 @@ CREATE TABLE `myusers` (
   `password` varchar(255) NOT NULL,
   `admin` int(1) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `myusers`
+--
+
+INSERT INTO `myusers` (`id`, `name`, `username`, `email`, `password`, `admin`) VALUES
+(19, 'test', 'test21', 'test@gmail.com', '$2y$10$E3mGEGKVV8gXoCL4PtPcNuoYSAXsF/ODMAwlr4mQWchmr/nVk8xOK', 0);
 
 -- --------------------------------------------------------
 
@@ -287,7 +316,7 @@ ALTER TABLE `contact`
 -- AUTO_INCREMENT for table `myusers`
 --
 ALTER TABLE `myusers`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `orders`
