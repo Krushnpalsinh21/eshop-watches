@@ -67,7 +67,7 @@ include "conffig.php";
               <div class="card-body">
                 <h4 class="card-title"><?php echo $fileName ?></h4>
                 <p class="card-text">Description: <?php echo $fileDescription ?></p>
-                <p class="card-text">From US <span id="money">$<?php echo $filePrice ?></span></p>
+                <p class="card-text"><span id="money">Price :<?php echo $filePrice ?></span></p>
                 <p class="card-text">Stock: <span id="stock"><?php echo $fileStock ?> left</span></p>
                 <button class="button">
                   <a href="openproduct.php?id=<?php echo $id ?>" class="<?php if($fileStock == 0){echo "disabled";} ?>">View</a>
@@ -123,7 +123,7 @@ include "conffig.php";
               <div class="card-body">
                 <h4 class="card-title"><?php echo $fileName ?></h4>
                 <p class="card-text">Description: <?php echo $fileDescription ?></p>
-                <p class="card-text">From US <span id="money">$<?php echo $filePrice ?></span></p>
+                <p class="card-text"><span id="money">Price :<?php echo $filePrice ?></span></p>
                 <p class="card-text">Stock: <span id="stock"><?php echo $fileStock ?> left</span></p>
                 <button class="button">
                   <a href="openproduct.php?id=<?php echo $id ?>" class="<?php if($fileStock == 0){echo "disabled";} ?>">View</a>

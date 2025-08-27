@@ -54,12 +54,12 @@ include "conffig.php";
 
     <label for="country" style="color: white;">Country</label>
     <select id="country" name="country"required>
-      <option value="Kosovo">Kosovo</option>
-      <option value="Albania">Albania</option>
-      <option value="Macedonia">Macedonia</option>
-      <option value="Croatia">Croatia</option>
+      <option value="India">India</option>
+      <option value="Russia">Russia</option>
+      <option value="USA">USA</option>
+      <option value="UK">UK</option>
       <option value="Germany">Germany</option>
-      <option value="Sweden">Sweden</option>
+      <option value="Kuwait">Kuwait</option>
     </select>
 
     <label for="subject" style="color: white;">Subject</label>

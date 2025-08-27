@@ -133,7 +133,7 @@ $total = 0;
               <a style="color: black;" href="#"> <?php echo $row['fileName']?></a>
            </div>
            <div class="col-md-4">
-             Price: $<span id="money" >  <?php echo $row['filePrice']?> </span> 
+             Price: <span id="money" >  <?php echo $row['filePrice']?> </span> 
            </div>
            <div class="col-md-3 text-right">
              

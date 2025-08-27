@@ -85,7 +85,7 @@ include "conffig.php";
         
          <div class="col-md-6  col-sm-12">
            <h4><?php echo $fileName;?> &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From <span id="money">US $<?php echo $filePrice;?></span>  </h4>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From <span id="money">Price :<?php echo $filePrice;?></span>  </h4>
            <hr>
 
            <p>Description: <span id="stocki"><?php echo $fileDescription  ?></span></p>
