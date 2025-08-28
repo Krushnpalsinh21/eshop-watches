@@ -129,6 +129,7 @@ background-image: url("https://m.media-amazon.com/images/S/aplus-seller-content-
   border: none;
   background-color: rgba(0,14,34,1);
   color: #FFFFFF;
+  border-radius: 16px;
 }
 .button{
   color: white;
