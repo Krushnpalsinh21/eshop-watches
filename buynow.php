@@ -124,8 +124,10 @@ $total = 0;
 		    ?>
 		    <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b><?php echo $result->num_rows?></b></span></h4>
 		    <?php
+        $total = 0;
 		    while($row = $result->fetch_assoc()) {
-          $total += $row['filePrice'];
+           $price = (float) $row['filePrice'];
+            $total += $price;
 
 		     ?>
          <div class="row">

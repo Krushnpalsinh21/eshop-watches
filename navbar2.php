@@ -1,5 +1,5 @@
 <nav id="nav" class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg fixed-top ">
-		  	<a class="navbar-brand" href="index.php"><img src="images/lo.png" alt="logo" style="width:110px "></a>
+		  	<a class="navbar-brand" href="index.php"><img src="images/lo.png" alt="logo" style="width:75px "></a>
 		 		 <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 		   			 <i class="fa fa-bars" aria-hidden="true" style="color: white; "></i>
 		  		</button>
