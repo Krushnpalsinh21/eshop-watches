@@ -19,7 +19,6 @@
               <li><a href="womenwatch.php">Women watches</a></li>
               <li><a href="classic.php">Classic</a></li>
               <li><a href="straps.php">Straps</a></li>
-              <li><a href="">Luxuary</a></li>
             </ul>
           </div>
 

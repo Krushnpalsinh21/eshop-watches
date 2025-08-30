@@ -187,7 +187,7 @@ background-image: url("https://m.media-amazon.com/images/S/aplus-seller-content-
 .main {
     background: url(images/Background1.jpg) no-repeat center; 
     background-size: cover;
-    height: 600px;
+    height: 850px;
     position: relative;
 }
 .main{
@@ -196,7 +196,7 @@ background-image: url("https://m.media-amazon.com/images/S/aplus-seller-content-
 .new{
   background: url(images/Background2.jpg) no-repeat center; 
     background-size: cover;
-    height: 600px;
+    height: 850px;
     position: relative;
 }
 .new{
@@ -206,7 +206,7 @@ background-image: url("https://m.media-amazon.com/images/S/aplus-seller-content-
 .watch{
    background: url(images/Background3.jpg) no-repeat center; 
     background-size: cover;
-    height: 600px;
+    height: 850px;
     position: relative;
 }
 .watch{
@@ -216,7 +216,7 @@ background-image: url("https://m.media-amazon.com/images/S/aplus-seller-content-
 .clas{
    background: url(images/Background4.jpg) no-repeat center; 
     background-size: cover;
-    height: 600px;
+    height: 850px;
     position: relative;
 }
 .clas {
@@ -227,7 +227,7 @@ background-image: url("https://m.media-amazon.com/images/S/aplus-seller-content-
 .strap{
    background: url(images/Background5.jpg) no-repeat center; 
     background-size: cover;
-    height: 600px;
+    height: 850px;
     position: relative;
 }
 .strap {
@@ -236,7 +236,7 @@ background-image: url("https://m.media-amazon.com/images/S/aplus-seller-content-
 .men{
    background: url(images/Background7.jpg) no-repeat center; 
     background-size: cover;
-    height: 600px;
+    height: 850px;
     position: relative;
 }
 .men {
@@ -246,7 +246,7 @@ background-image: url("https://m.media-amazon.com/images/S/aplus-seller-content-
 .women{
    background: url(images/back.jpeg) no-repeat center; 
     background-size: cover;
-    height: 600px;
+    height: 850px;
     position: relative;
 }
 .women {
