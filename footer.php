@@ -39,7 +39,7 @@
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
             <p class="copyright-text">Copyright &copy; <?php echo date("Y"); ?> All Rights Reserved by 
-         <a href="#">Krushnpalsinh</a>.
+         <a href="#">Krushnpalsinh,vasu,shyam</a>.
             </p>
           </div>
 
