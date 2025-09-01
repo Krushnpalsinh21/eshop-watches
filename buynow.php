@@ -64,7 +64,7 @@ if(empty($_SESSION['username'])) {
               </div>
               <div class="col-50">
                 <label for="zip">Zip</label>
-                <input type="text" id="zip" name="zip" placeholder="" required>
+                <input type="text" maxlength="6" id="zip" name="zip" placeholder="" required>
               </div>
             </div>
           </div>
@@ -81,17 +81,17 @@ if(empty($_SESSION['username'])) {
             <label for="cname">Name on Card</label>
             <input type="text" id="cname" name="cardname" placeholder="" required>
             <label for="ccnum">Credit card number</label>
-            <input type="text" id="ccnum" name="cardnumber" placeholder="" required>
+            <input type="text" maxlength="12" id="ccnum" name="cardnumber" placeholder="1234 1234 1234" required>
             <label for="expmonth">Exp Month</label>
-            <input type="text" id="expmonth" name="expmonth" placeholder="" required>
+            <input type="text" maxlength="2" id="expmonth" name="expmonth" placeholder="mm" required>
             <div class="row">
               <div class="col-50">
                 <label for="expyear">Exp Year</label>
-                <input type="text" id="expyear" name="expyear" placeholder="" required>
+                <input type="text" maxlength="4" id="expyear" name="expyear" placeholder="yyyy" required>
               </div>
               <div class="col-50">
                 <label for="cvv">CVV</label>
-                <input type="text" id="cvv" name="cvv" placeholder="" required>
+                <input type="text" maxlength="3" id="cvv" name="cvv" placeholder="" required>
               </div>
             </div>
           </div>
