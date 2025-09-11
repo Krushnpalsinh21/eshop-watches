@@ -31,19 +31,20 @@ include "conffig.php";
 							    <hr>
 
 							    <label for="name"><b>Name</b></label>
-							    <input type="text" placeholder="Enter Name" name="name" id="name" required>
+							    <input type="text" maxlength="35" placeholder="Enter Name" name="name" id="name" required>
 
 							    <label for="username"><b>Username</b></label>
-							    <input type="text" placeholder="Enter Username" name="username" id="username" required>
+							    <input type="text" maxlength="35" placeholder="Enter Username" name="username" id="username" required>
 
 							    <label for="email"><b>Email</b></label>
-							    <input type="email" placeholder="Enter Email" name="email" id="email" required>
+							    <input type="email" maxlength="35" placeholder="Enter Email" name="email" id="email" required>
 
 							    <label for="password"><b>Password</b></label>
-							    <input type="password" placeholder="Enter Password" name="password" id="password" required>
+							    <input type="password" maxlength="14" placeholder="Enter Password" name="password" id="password" required>
+								
 
 							    <label for="Cpasswword"><b>Confirm Password</b></label>
-							    <input type="password" placeholder="Confirm Password" name="cpassword" id="cpassword" required>
+							    <input type="password" placeholder="Confirm Password" maxlength="14" name="cpassword" id="cpassword" required>
 							    <hr>
 							    <p class="col">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 							    <br>

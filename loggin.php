@@ -27,10 +27,10 @@ include "conffig.php";
 				
   
     <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="username" required>
+    <input type="text" maxlength="35" placeholder="Enter Username" name="username" required>
 
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="password" required>
+    <input type="password" maxlength="14" placeholder="Enter Password" name="password" required>
     <br>
      <span style="color:red; margin: 0 auto;"><?php echo $error;?></span>
         

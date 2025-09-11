@@ -65,6 +65,13 @@ if(empty($_SESSION['username'])) {
               <div class="col-50">
                 <label for="zip">Zip</label>
                 <input type="text" maxlength="6" id="zip" name="zip" placeholder="" required>
+                 <script>
+  const cvvInput = document.getElementById('zip');
+
+  cvvInput.addEventListener('input', function () {
+    this.value = this.value.replace(/\D/g, '').slice(0, 6);
+  });
+</script>
               </div>
             </div>
           </div>
@@ -82,16 +89,56 @@ if(empty($_SESSION['username'])) {
             <input type="text" id="cname" name="cardname" placeholder="" required>
             <label for="ccnum">Credit card number</label>
             <input type="text" maxlength="12" id="ccnum" name="cardnumber" placeholder="1234 1234 1234" required>
+           
+<script>
+  const cardInput = document.getElementById('ccnum');
+
+  cardInput.addEventListener('input', function () {
+    this.value = this.value.replace(/\D/g, '').slice(0, 12);
+  });
+</script>
             <label for="expmonth">Exp Month</label>
             <input type="text" maxlength="2" id="expmonth" name="expmonth" placeholder="mm" required>
+            <script>
+  const monthInput = document.getElementById('expmonth');
+
+  monthInput.addEventListener('input', function () {
+    let value = this.value.replace(/\D/g, ''); // Remove non-digits
+
+    // If number is greater than 12, trim it
+    if (value.length > 2) value = value.slice(0, 2);
+
+    // Prevent values > 12
+    if (parseInt(value) > 12) {
+      value = '12';
+    }
+
+    this.value = value;
+  });
+</script>
             <div class="row">
               <div class="col-50">
                 <label for="expyear">Exp Year</label>
                 <input type="text" maxlength="4" id="expyear" name="expyear" placeholder="yyyy" required>
+                <script>
+  const yearInput = document.getElementById('expyear');
+
+  yearInput.addEventListener('input', function () {
+    this.value = this.value.replace(/\D/g, '').slice(0, 4);
+  });
+</script>
+
               </div>
               <div class="col-50">
                 <label for="cvv">CVV</label>
-                <input type="text" maxlength="3" id="cvv" name="cvv" placeholder="" required>
+                <input type="text" maxlength="3" id="cvv" name="cvv" placeholder="cvv" required>
+                <script>
+  const cvvInput = document.getElementById('cvv');
+
+  cvvInput.addEventListener('input', function () {
+    this.value = this.value.replace(/\D/g, '').slice(0, 3);
+  });
+</script>
               </div>
             </div>
           </div>
@@ -105,7 +152,12 @@ if(empty($_SESSION['username'])) {
           $sql = "SELECT cart.id,cart.productid,products.fileName,products.filePrice FROM cart LEFT JOIN products on cart.productid = products.id where userid = '$iddd'";
           ?>
           <input type="text" name="userid" hidden value="<?php echo $iddd?>">
-        <input type="submit" name="checkout" value="Continue to checkout" class="btn">
+        <input type="submit" name="checkout" value="Continue to checkout" class="btn" onclick="showalert()">
+        <script>
+          function showalert() {
+            alert("successfully");
+          }
+        </script>
       </form>
     </div>
   </div>
