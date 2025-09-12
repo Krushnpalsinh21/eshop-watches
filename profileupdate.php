@@ -49,19 +49,19 @@ else{
                   <hr>
 
                   <label style="color: white;" for="name"><b>Name</b></label>
-                  <input type="text" placeholder="Enter Name" name="name" value="<?php echo $_SESSION['name'] ?>"  id="name" required>
+                  <input type="text" maxlength="35" placeholder="Enter Name" name="name" value="<?php echo $_SESSION['name'] ?>"  id="name" required>
 
                   <label style="color: white;" for="username"><b>Username</b></label>
-                  <input type="text" placeholder="Enter Username" name="username" value="<?php echo $_SESSION['username'] ?>"  id="username" required>
+                  <input type="text"  maxlength="35" placeholder="Enter Username" name="username" value="<?php echo $_SESSION['username'] ?>"  id="username" required>
 
                   <label style="color: white;" for="email"><b>Email</b></label>
-                  <input type="email" placeholder="Enter Email" name="email" value="<?php echo $_SESSION['email'] ?>"  id="email" required>
+                  <input type="email"  maxlength="35" placeholder="Enter Email" name="email" value="<?php echo $_SESSION['email'] ?>"  id="email" required>
 
                   <label style="color: white;" for="password"><b>Password</b></label>
-                  <input type="password" placeholder="Enter Password" name="password" id="password" required>
+                  <input type="password"  maxlength="14" placeholder="Enter Password" name="password" id="password" required>
 
                   <label style="color: white;" for="Cpasswword"><b>Confirm Password</b></label>
-                  <input type="password" placeholder="Confirm Password" name="cpassword" id="cpassword" required>
+                  <input type="password"  maxlength="14" placeholder="Confirm Password" name="cpassword" id="cpassword" required>
                   <hr>
                   <p style="color: white;" class="col">By updating your account you agree to our <a href="#">Terms & Privacy</a>.</p>
 
