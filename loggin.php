@@ -34,8 +34,14 @@ include "conffig.php";
     <br>
      <span style="color:red; margin: 0 auto;"><?php echo $error;?></span>
         
-    <button id="button" name="login" type="submit">Login</button>
+    <button id="button" name="login" type="submit" onclick="showalert()">Login</button>
     <label>
+      <script>
+        
+          function showalert() {
+            alert("Login successfully");
+          }
+        </script>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
  
